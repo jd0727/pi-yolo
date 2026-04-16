@@ -1,0 +1,86 @@
+path: /home/data-storage/JD/TDUnionPry/ImageSets/Main   # sev4090
+
+#train: train.txt  # train images (relative to 'path') 118287 images
+train: train.txt
+val: test.txt  # val images (relative to 'path') 5000 images
+test: test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: towertop
+  1: towertop_break
+  2: insulator_glass
+  3: insulator_glass_break
+  4: insulator_ceramic
+  5: insulator_ceramic_dirty
+  6: insulator_ceramic_break
+  7: insulator_comp
+  8: insulator_comp_dirty
+  9: insulator_comp_break
+  10: clamp_parallel
+  11: clamp_parallel_rust
+  12: clamp_strain
+  13: clamp_strain_rust
+  14: clamp_wire
+  15: clamp_wire_rust
+  16: hangplate_rect
+  17: hangplate_rect_rust
+  18: binding
+  19: binding_wrong
+  20: cover
+  21: fuse_drop
+  22: fuse_drop_break
+  23: flange
+  24: flange_rust
+  25: hammer
+  26: hammer_rust
+  27: ground_ring
+  28: bird_scarer
+  29: nest
+  30: breaker_vacuum
+  31: transformer
+  32: line_break
+  33: tie
+  34: clamp_suspen
+  35: clamp_suspen_rust
+  36: hangplate_ring
+  37: hangplate_ring_rust
+  38: clamp_wedge
+  39: clamp_wedge_rust
+  40: hammer_break
+  41: binding_metal
+  42: binding_metal_rust
+  43: hangplate_tri
+  44: hangplate_tri_rust
+  45: hangplate_para
+  46: hangplate_para_rust
+  47: clamp_bolt
+  48: clamp_bolt_rust
+  49: hangplate_arc
+  50: hangplate_arc_rust
+  51: hammer_500
+  52: line_wrap
+
+
+
+# stuff names
+stuff_names: [
+  'towertop', 'towertop_break', 'insulator_glass', 'insulator_glass_break',
+  'insulator_ceramic', 'insulator_ceramic_dirty', 'insulator_ceramic_break',
+  'insulator_comp', 'insulator_comp_dirty', 'insulator_comp_break',
+  'clamp_parallel', 'clamp_parallel_rust', 'clamp_strain', 'clamp_strain_rust',
+  'clamp_wire', 'clamp_wire_rust', 'hangplate_rect', 'hangplate_rect_rust',
+  'binding', 'binding_wrong', 'cover',
+  'fuse_drop', 'fuse_drop_break', 'flange', 'flange_rust',
+  'hammer', 'hammer_rust','hammer_break', 'ground_ring', 'bird_scarer',
+  'nest', 'breaker_vacuum', 'transformer', 'line_break', 'tie',
+  'clamp_suspen', 'clamp_suspen_rust', 'hangplate_ring', 'hangplate_ring_rust',
+  'clamp_wedge', 'clamp_wedge_rust',
+  'binding_metal', 'binding_metal_rust',
+  'hangplate_tri', 'hangplate_tri_rust',
+  'hangplate_para', 'hangplate_para_rust',
+  'clamp_bolt', 'clamp_bolt_rust',
+  'hangplate_arc', 'hangplate_arc_rust', 'hammer_500','line_wrap'
+
+]
+

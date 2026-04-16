@@ -1,0 +1,53 @@
+#path: /home/user/JD/TDUnionPryPart/ImageSets/Main   # sevtaitan
+path: /home/data-storage/JD/InsPLAD/ImageSets/Main   # sev3090
+
+#train: train.txt  # train images (relative to 'path') 118287 images
+train: train.txt
+val: val.txt  # val images (relative to 'path') 5000 images
+test: val.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: glass insulator
+  1: glass insulator big shackle
+  2: glass insulator small shackle
+  3: glass insulator tower shackle
+  4: lightning rod shackle
+  5: lightning rod suspension
+  6: polymer insulator
+  7: polymer insulator lower shackle
+  8: polymer insulator tower shackle
+  9: polymer insulator upper shackle
+  10: spacer
+  11: sphere
+  12: spiral damper
+  13: stockbridge damper
+  14: tower id plate
+  15: vari-grip
+  16: yoke
+  17: yoke suspension
+
+
+
+# stuff names
+stuff_names: [
+  'glass insulator',
+  'glass insulator big shackle',
+  'glass insulator small shackle',
+  'glass insulator tower shackle',
+  'lightning rod shackle',
+  'lightning rod suspension',
+  'polymer insulator',
+  'polymer insulator lower shackle',
+  'polymer insulator tower shackle',
+  'polymer insulator upper shackle',
+  'spacer',
+  'sphere',
+  'spiral damper',
+  'stockbridge damper',
+  'tower id plate',
+  'vari-grip',
+  'yoke',
+  'yoke suspension',
+]
+
